@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial;
+    font-size: 17px;
+  }
+  
+  #myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+  }
+  
+  .content {
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  #myBtn {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  #myBtn:hover {
+    background: #ddd;
+    color: black;
+  }
+  
+  
+  h3
+  {
+      color: rgb(207,124,95);
+      //text-shadow: 2px 2px 0px #000000;
+  
+      text-shadow:
+      /* Outline */
+      -1px -1px 0 #000000,
+      1px -1px 0 #000000,
+      -1px 1px 0 #000000,
+      1px 1px 0 #000000,  
+      -2px 0 0 #000000,
+      2px 0 0 #000000,
+      0 2px 0 #000000,
+      0 -2px 0 #000000;
+  
+      text-transform: uppercase;
+      font-size: 70px;
+      text-align: center;
+      margin-top: 275px;
+      
+  }
+  
+  
+  h2
+  {
+      color: rgb(250, 221, 135);
+      text-transform: uppercase;
+      font-size: 32px;
+      text-align: center;
+      margin-top: 137.5px; 
+  
+  }
+  
+  
+  .ml2 {
+    font-weight: 900;
+    font-size: 3.5em;
+  }
+  
+  .ml2 .letter {
+    display: inline-block;
+    line-height: 1em;
+  }
+  
+  .ml14 {
+    color: rgb(250,221,135);
+    text-transform: uppercase;
+    font-size: 32px;
+    text-align: center;
+    margin-top: 137.5px; 
+    font-weight: 200;
+  }
+  
+  .ml14 .text-wrapper {
+    position: relative;
+    display: inline-block;
+    padding-top: 0.1em;
+    padding-right: 0.05em;
+    padding-bottom: 0.15em;
+  }
+  
+  .ml14 .line {
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    height: 2px;
+    width: 100%;
+    background-color: rgb(250,221,135);
+    transform-origin: 100% 100%;
+    bottom: 0;
+  }
+  
+  .ml14 .letter {
+    display: inline-block;
+    line-height: 1em;
+  }
+  
+  .btn-grad {background-image: linear-gradient(to right, #DE6262 0%, #FFB88C  51%, #DE6262  100%)}
+  .btn-grad {
+    margin: 1px;
+    margin-left: 925px;
+    margin-right: auto;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    text-transform: uppercase;
+    transition: 0.5s;
+    color: white;
+    background-size: 200% auto;          
+    border: none;
+    border-radius: 10px;
+  }
+  
+  .btn-grad:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+                
+  input {
+    cursor: pointer;
+    color: white;
+    border: 0px;
+    background: transparent;
+  }   

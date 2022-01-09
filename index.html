@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html> lang="fr">
+
+<head>
+<meta name="author" content="Lilou">
+<meta name="keywords" content="sunset, convertisseur, html, css, hexadecimal, binaire, decimal">
+<meta name="copyright" content="Lilou">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Visual Studio Code">
+<meta name="publisher" content="Lilou">
+<link href="videobackground.css" rel="stylesheet" type="text/css">
+<link rel="icon" href="img/soleil.ico">
+<link rel="apple-touch-icon" href="img/soleil.ico">
+<title>Les voyages</title>
+</head>
+
+<style>
+video {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
+</style>
+</head>
+<body>
+
+<h1 class="ml14">
+  <span class="text-wrapper">
+    <span class="letters">BIENVENUE</span>
+    <span class="line"></span>
+  </span>
+</h1>
+
+<h3 class="ml2">Sunset</h3>
+
+<div class="btn-grad">
+
+<form>
+         <input type="button" onclick="window.location.href = 'conversion.html';" value="ICI"/>
+</form>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+
+<video autoplay muted loop id="myVideo">
+  <source src="sunset.mp4" type="video/mp4">
+</video>
+
+<script src=script.js type= "text/javascript"></script>
+</body>
+</html>
